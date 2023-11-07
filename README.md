@@ -57,7 +57,10 @@ The project presented its fair share of challenges, particularly in the areas of
 
 - **Data Formatting**: The dataset may contain categorical features that need to be appropriately formatted for machine learning. Dealing with these categorical variables may involve label encoding, one-hot encoding, or other encoding methods to represent them numerically.
 
+- **Data Transformation**: During data transformation,I had encountered some problem in which some of the data,still in not cleaned enough,provided that there are still features that are not number format which is transport_use , so I learned that, to ease the process while debugging , we can make back up files first before we handle through data transformation,and this also being applied to other part if think it could ease our work and save our time more.
+
 - **Label Encoding and One-Hot Encoding**: Converting categorical variables into a format suitable for machine learning can be challenging. Label encoding assigns numerical labels to categories, while one-hot encoding creates binary columns for each category. Deciding which encoding method to use and handling a large number of categorical features can be complex.
+
 
 These challenges require careful consideration and expertise to ensure that the data is properly transformed and formatted for accurate model training and predictions.
 
