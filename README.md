@@ -10,12 +10,13 @@ Libraries and Packages:
 ![Github Pages](https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white)
 ![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
 
-Future Use or Related for model deployment
+Future Use or Related for model deployment:
+
 ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![Microsoft Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
+
 
 ### Introduction
 This documentation provides a comprehensive overview of the project titled "Machine Learning Project to Predict Income Group based on Survey of Income and Expenditure." The project involves using machine learning techniques to predict the income group of individuals based on a dataset collected from the Survey of Income and Expenditure. This documentation will cover various aspects of the project, including its objectives, methodology, determinants of income group, project flow, key learnings, challenges faced, and future goals.
