@@ -1,61 +1,65 @@
-# Machine-Learning-Project-to-predict-salary-
-Predict for income group
+# Machine Learning Project to Predict Income Group based on Survey of Income and Expenditure
+
 Libraries and Packages:
 
-Python Flask Pandas NumPy scikit-learn HTML5 CSS3 Postman
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
 
-Introduction
-This documentation provides a comprehensive overview of the project titled "Predicting Used Car Prices in the Malaysian Market." The project involves using machine learning techniques to predict the prices of used cars in the Malaysian market based on a dataset collected from web scraping. This documentation will cover various aspects of the project, including its objectives, methodology, challenges, and future goals.
+### Introduction
+This documentation provides a comprehensive overview of the project titled "Machine Learning Project to Predict Income Group based on Survey of Income and Expenditure." The project involves using machine learning techniques to predict the income group of individuals based on a dataset collected from the Survey of Income and Expenditure. This documentation will cover various aspects of the project, including its objectives, methodology, determinants of income group, project flow, key learnings, challenges faced, and future goals.
 
-Project Objectives
-The primary objective of this project is to develop a machine learning model that can accurately predict the prices of used cars in the Malaysian market. To achieve this, the following specific objectives were set:
+### Project Objectives
+The primary objective of this project is to develop a machine learning model that can accurately predict the income group of individuals based on data collected from the Survey of Income and Expenditure. To achieve this, the following specific objectives were set:
 
-Collect a substantial dataset of used car listings in the Malaysian market through web scraping.
-Perform data cleaning and preprocessing to prepare the dataset for modeling.
-Develop a machine learning pipeline that includes one-hot encoding, feature scaling, and a random forest regressor model.
-Train the model on the dataset and optimize it using cross-validation and hyperparameter tuning.
-Deploy the trained model as a web application using Flask, HTML, and CSS.
-Determinants of Used Car Prices
-One of the key questions addressed in this project is, "What determines most of the used car prices in the Malaysian market?" The answer to this question is essential for understanding the factors that influence the pricing of used cars. The machine learning model developed in this project aims to identify and quantify these determinants based on the dataset.
+1. Collect and preprocess data from the Survey of Income and Expenditure, ensuring data quality and consistency.
+2. Develop a machine learning pipeline that includes data transformation, feature engineering, and a suitable classification model.
+3. Train the model on the dataset and optimize it using cross-validation and hyperparameter tuning.
+4. Evaluate the model's performance using appropriate classification metrics, such as accuracy, precision, recall, and F1-score.
 
-Project Flow
+### Determinants of Income Group
+One of the key questions addressed in this project is, "What factors determine an individual's income group based on the Survey of Income and Expenditure?" The machine learning model developed in this project aims to identify and quantify these determinants based on the dataset.
+
+### Project Flow
 The project follows a structured workflow consisting of the following steps:
 
-Web Scraping: A total of 8000 listings of used car prices in the Malaysian market were collected through web scraping. Each listing contains information about the cars, such as brand, engine cc, year, mileage, and price.
+1. **Data Collection and Preprocessing**: Data is collected from the Survey of Income and Expenditure and undergoes rigorous preprocessing to ensure data quality.
 
-Data Cleaning: The collected data underwent extensive data cleaning, which involved data imputation and feature engineering. This step was crucial for preparing the dataset for model development.
+2. **Feature Engineering**: Feature engineering is performed to create relevant features that can aid in predicting income groups.
 
-Model Development: A machine learning pipeline was created, which included data transformation (one-hot encoding and feature scaling) and a random forest regressor model. The model was trained on the cleaned dataset to predict the prices of used cars. Cross-validation with 10 folds and hyperparameter tuning were performed to optimize model performance. The model achieved a cross-validated Root Mean Square Error (RMSE) of 27458.34 and a cross-validated R-squared (R2) of 0.927090. This ensured that the model neither underfits nor overfits the data.
+3. **Data Formatting and Transformation**: The dataset may contain categorical features that need to be appropriately formatted for machine learning. Dealing with these categorical variables may involve label encoding, one-hot encoding, or other encoding methods to represent them numerically.
 
-Model Deployment: The trained model was deployed as a web application using Flask as the primary web framework and HTML & CSS for the frontend. This deployment allows users to input car details and receive price predictions.
+4. **Model Development**: A machine learning pipeline is created, which includes data transformation, feature scaling, and a classification model. The model is trained on the preprocessed dataset to predict income groups.
 
-Key Learnings
+### Key Learnings
 Throughout the course of this project, several valuable lessons were learned:
 
-Data Collection: The process of web scraping can be slow and prone to interruptions, leading to challenges in collecting a large dataset.
+- **Data Preprocessing**: Data preprocessing is a critical step in ensuring that the data is suitable for modeling. Careful attention to data quality is essential.
 
-Data Cleaning: Data cleaning and preprocessing are time-consuming but essential steps in ensuring the quality of the dataset and the accuracy of the model.
+- **Classification Modeling**: Developing and optimizing a classification model is a key skill in machine learning, as it allows for accurate prediction of categorical outcomes.
 
-Web Development: Developing a web application, especially for those with limited domain knowledge in web development, can be a challenging but rewarding learning experience.
+### Challenges Faced
+The project presented its fair share of challenges, particularly in the areas of data formatting and data transformation:
 
-Challenges Faced
-The project presented its fair share of challenges:
+- **Data Quality**: Ensuring data quality and dealing with missing or inconsistent data can be time-consuming. The Survey of Income and Expenditure data may have variations and inconsistencies that require thorough cleaning and preprocessing.
 
-Slow Web Scraping: Web scraping was slower than anticipated, and interruptions occurred, limiting the dataset to only 8000 listings.
+- **Data Formatting**: The dataset may contain categorical features that need to be appropriately formatted for machine learning. Dealing with these categorical variables may involve label encoding, one-hot encoding, or other encoding methods to represent them numerically.
 
-Data Cleaning Complexity: Cleaning and preprocessing the data consumed a significant portion of the project's time due to the diverse nature of the data.
+- **Label Encoding and One-Hot Encoding**: Converting categorical variables into a format suitable for machine learning can be challenging. Label encoding assigns numerical labels to categories, while one-hot encoding creates binary columns for each category. Deciding which encoding method to use and handling a large number of categorical features can be complex.
 
-Limited Web Development Knowledge: Developing a web app required self-learning, especially for those not well-versed in web development technologies.
+These challenges require careful consideration and expertise to ensure that the data is properly transformed and formatted for accurate model training and predictions.
 
-Future Goals
+### Future Goals
 While the project has achieved its primary objectives, there are several future goals and improvements that can be considered:
 
-Data Collection: Efforts can be made to collect a larger dataset to further improve model accuracy on predicting more generalized data.
+- **Data Expansion**: Efforts can be made to collect a larger dataset to further improve model accuracy on predicting more generalized data.
 
-Cloud Deployment: Deploying the web app to a cloud hosting platform would make it accessible from anywhere and enhance its scalability.
+- **Model Optimization**: Explore model optimization techniques, including the implementation of ensemble methods like voting and stacking. Ensembling multiple models can often lead to improved predictive performance.
 
-Conclusion
-The project "Predicting Used Car Prices in the Malaysian Market" successfully developed a machine learning model that can predict the prices of used cars based on a dataset collected through web scraping. Despite challenges in data collection, cleaning, and web development, the project achieved its objectives and provides a foundation for future improvements and enhancements. Understanding the determinants of used car prices in the Malaysian market is valuable for both buyers and sellers in making informed decisions.
+- **Deployment and Integration**: Consider deploying the optimized model for real-time predictions or integrating it into a web application for broader use.
 
-Additional Notes
-During the model deployment to the web app, it is worth noting that only half of the features were chosen for deployment compared to what was used during model training. This selective feature deployment was done as the primary goal of the model deployment phase was to practice skills and knowledge related to deploying machine learning models using Flask. Similarly, the web app's design was kept simple, as the primary focus was to demonstrate the model deployment process rather than creating an elaborate user interface.
+These future goals aim to enhance the project's predictive capabilities and its practical utility.
+
+### Conclusion
+The project "Machine Learning Project to Predict Income Group based on Survey of Income and Expenditure" successfully developed a machine learning model that can predict income groups based on data collected from the Survey of Income and Expenditure. Despite challenges in data quality and model optimization, the project achieved its objectives and provides a foundation for future improvements and enhancements. Understanding the determinants of income group based on the Survey of Income and Expenditure is valuable for various applications, such as social and economic research.
