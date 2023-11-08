@@ -19,23 +19,20 @@ Future Use or Related for model deployment:
 
 
 ### Introduction
-This documentation provides a comprehensive overview of the project titled "Machine Learning Project to Predict Income Group based on Survey of Income and Expenditure." The project involves using machine learning techniques to predict the income group of individuals based on a dataset collected from the Survey of Income and Expenditure. This documentation will cover various aspects of the project, including its objectives, methodology, determinants of income group, project flow, key learnings, challenges faced, and future goals.
+This documentation provides a comprehensive overview of the project titled "Machine Learning Project to Predict Income Group based on Survey of Income and Expenditure." The project involves using machine learning techniques to predict the income group of individuals based on a dataset of the Survey of Income and Expenditure. This documentation will cover various aspects of the project, including its objectives, methodology, project flow, key learnings, challenges faced, and future goals.
 
 ### Project Objectives
 The primary objective of this project is to develop a machine learning model that can accurately predict the income group of individuals based on data collected from the Survey of Income and Expenditure. To achieve this, the following specific objectives were set:
 
-1. Collect and preprocess data from the Survey of Income and Expenditure, ensuring data quality and consistency.
+1. Preprorocess the data from the Survey of Income and Expenditure, ensuring data quality and consistency.
 2. Develop a machine learning pipeline that includes data transformation, feature engineering, and a suitable classification model.
 3. Train the model on the dataset and optimize it using cross-validation and hyperparameter tuning.
 4. Evaluate the model's performance using appropriate classification metrics, such as accuracy, precision, recall, and F1-score.
 
-### Determinants of Income Group
-One of the key questions addressed in this project is, "What factors determine an individual's income group based on the Survey of Income and Expenditure?" The machine learning model developed in this project aims to identify and quantify these determinants based on the dataset.
-
 ### Project Flow
 The project follows a structured workflow consisting of the following steps:
 
-1. **Data Collection and Preprocessing**: Data is collected from the Survey of Income and Expenditure and undergoes rigorous preprocessing to ensure data quality.
+1. **Data Cleaning**: Data undergoes rigorous preprocessing to ensure data quality.
 
 2. **Feature Engineering**: Feature engineering is performed to create relevant features that can aid in predicting income groups.
 
@@ -76,4 +73,4 @@ While the project has achieved its primary objectives, there are several future 
 These future goals aim to enhance the project's predictive capabilities and its practical utility.
 
 ### Conclusion
-The project "Machine Learning Project to Predict Income Group based on Survey of Income and Expenditure" successfully developed a machine learning model that can predict income groups based on data collected from the Survey of Income and Expenditure. Despite challenges in data quality and model optimization, the project achieved its objectives and provides a foundation for future improvements and enhancements. Understanding the determinants of income group based on the Survey of Income and Expenditure is valuable for various applications, such as social and economic research.
+The project "Machine Learning Project to Predict Income Group based on Survey of Income and Expenditure" successfully developed a machine learning model that can predict income groups based on data collected from the Survey of Income and Expenditure. Despite challenges in data quality and model optimization, the project achieved its objectives and provides a foundation for future improvements and enhancements. 
